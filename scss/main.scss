@@ -26,12 +26,15 @@ body {
 
 .list-item {
   position: relative;
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-  background-color: black;
-  min-height: 64px;
+  .link-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    background-color: black;
+    min-height: 64px;
+  }
 }
+
 
 .image {
   margin: 0 10px;
