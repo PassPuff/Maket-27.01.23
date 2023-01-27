@@ -20,17 +20,20 @@ body {
   background-color: #28292E;
 }
 
-.title {
+.purchase-title {
   margin-bottom: 20px;
 }
 
 .list-item {
   position: relative;
-  .link-item {
-    display: flex;
+  display: flex;
     align-items: center;
     background-color: black;
-    min-height: 100px;
+    min-height: 5.625rem;
+    cursor: pointer;
+
+  .link-item {
+
   }
 }
 
